@@ -1,0 +1,116 @@
+<html>
+<head>
+    <title>Yoga</title>
+    
+<title>Your Website</title>
+    
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css" type="text/css">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<script type="text/javascript"></script>
+
+    <link href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    
+
+    </head>
+    <body class="greet">
+        <header>
+            <div class="row">
+               
+               <nav>
+                    <h1 class="brand"><a href="yoga.html">YOGVED</a></h1> 
+                   <ul>
+                        
+                       
+                        <li><a href="yoga.html">Home</li>
+                        
+                    </ul>
+                    <div style="clear: both"></div>
+                </nav>
+                <div class="responsive-bar">
+                    <h3 class="brand"><a href="#">YOGVED</a></h3>
+                    <h4 class="menu">Menu</h4>
+                    <div style="clear: both"></div>
+                </div>
+                <script
+ <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+                  
+$(".menu").click(function(){
+  $("nav").slideToggle(500);  
+})
+
+
+})            
+            
+            </script>
+            </div>
+            
+        </header>
+        <div class="login-form">
+	<div class="login-face"><img src="images/login_face.png"></div>
+	<section class="form">
+		<form>
+			<div class="input uname">
+				<input type="text" id="username" placeholder="Username" required/>
+				<i class="fa fa-user"></i>
+			</div>
+            <div class="input uemail">
+				<input type="text" id="useremail" placeholder="email" required/>
+				<i class="fa fa-user"></i>
+			</div>
+
+			<div class="input pass">
+				<input type="password" id="password" placeholder="Password" required/>
+				<i class="fa fa-lock"></i>
+			</div>
+            <div class="input pass">
+				<input type="password" id="password" placeholder="Confirm Password" required/>
+				<i class="fa fa-lock"></i>
+			</div>
+			<a href="#" style="float:right;color:gray;font-size:14px;text-decoration:none;
+			font-family:san-serif,Arial;margin-bottom:10px;">Lost Your Password?</a>
+			<p class="error-msg">Wrong Credential</p>
+			<div>
+				<input type="submit" id="login" value="Sign in" onclick="location.href='#';" />
+			</div>
+			<a href="index.html">Already a member than click here for login.</a>
+		</form>
+	</section>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#login").click(function(){
+		if($("#username").val() == ""){
+			$(".input").addClass("error");
+			$("#username").css({"border":"2px solid red"});
+		}
+        if($("#useremail").val() == ""){
+			$(".input").addClass("error");
+			$("#useremail").css({"border":"2px solid red"});
+		}
+		if($("#password").val() == ""){
+			$(".pass").addClass("error");
+		}
+        if($("#Confirm password").val() == ""){
+			$(".pass").addClass("error");
+		}
+        
+
+	})
+	$(".input").click(function(){
+		$(".input").removeClass("error");
+		$("#username").css({"border":"2px solid #ddd"});
+	})
+})
+</script>
+
+            
+    </body>    
+</html>
+
